@@ -1,0 +1,21 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(107, 112, 168);
+    color: white;
+    overflow: hidden;
+    font-size: large;
+   
+}
+section{ /*seção generica, pega todas a seções*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden; /*barra de rolagem nao funciona*/
+    gap: 20px;
+}
+#page2{
+    display: none; /*desaparece um elemento*/
+
+}
